@@ -1,0 +1,6 @@
+--How to use logger
+  lib:
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+  static variable:
+private static Logger logger = LogManager.getLogger();
