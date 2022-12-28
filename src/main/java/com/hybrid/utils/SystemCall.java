@@ -61,7 +61,7 @@ public class SystemCall extends Thread{
 		return exitVal;
 	}
 
-	public int executeShellCommand(String command) throws IOException, Exception, InterruptedException {
+	public static int executeShellCommand(String command) throws IOException, Exception, InterruptedException {
 
 		int exitVal = 0;
 		Process p = null;
